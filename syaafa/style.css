@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding-bottom: 40px;
+}
+
+/* Navigation Header */
+header {
+    background-color: #1e293b;
+    border-bottom: 2px solid #38bdf8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    display: block;
+    padding: 18px 20px;
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect Requirement */
+nav ul li a:hover {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+/* Container & Layout */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Content Cards */
+.card {
+    background-color: #1e293b;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #334155;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5); /* Shadow requirement */
+}
+
+h1, h2, h3 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Responsive Image Container */
+.image-container img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 1px solid #38bdf8;
+}
+
+/* Table Styling for Page 2 & Page 6 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #0f172a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #334155;
+}
+
+th {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+tr:hover {
+    background-color: #1e293b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: #94a3b8;
+    margin-top: 40px;
+    border-top: 1px solid #334155;
+}
+.reference-item {
+    text-indent: -36px;
+    padding-left: 36px;
+    margin-bottom: 12px;
+}
+
+/* Link Styling */
+a {
+    color: #38bdf8;
+}
+
+a:hover {
+    color: #7dd3fc;
+}
+
+/* Infographic Image */
+.infographic img {
+    max-height: none;
+    object-fit: contain;
+}
